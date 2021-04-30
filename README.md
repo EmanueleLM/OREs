@@ -1,11 +1,14 @@
 # Optimal Robust Explantions
-This repository constains the code to run the experiments of the paper "On Guaranteed Optimal Robust Explanations", which will appear on the proceeding of IJCAI2021.
+This repository constains the code to run the experiments of the paper "On Guaranteed Optimal Robust Explanations", which will appear on the proceeding of
+```
+IJCAI2021.
 @inproceedings{LaMalfa2021,
 Author = {Emanuele La Malfa et al.},
 Title = {On Guaranteed Optimal Robust Explanations for NLP Models},
 Booktitle  = {International Joint Conference on Artificial Intelligence (IJCAI) - to appear},
 Year = {2021}
 }
+```
 
 ## Install Python Dependencies
 In order to install the dependencies, you can run the command `pip install PACKAGENAME==X.Y.Z --user` where `PACKAGENAME` is the name of the missing dependency and `X.Y.Z` is the version, for example, `pip install numpy==1.18.5 --user`. If no specific version is specified in the previous list, you can run `pip install PACKAGENAME --user`.
