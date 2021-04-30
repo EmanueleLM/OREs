@@ -1,0 +1,28 @@
+exclude leguizamo
+Input: ['when', 'leguizamo', 'finally', 'plugged', 'an', 'irritating', 'character', 'late', 'in', 'the', 'movie']
+KNN, Window Size: 8, 5
+Original output (confidence): 0 (0.9985737800598145)
+Minimal Expl: []
+Exec Time: 10.345061540603638
+
+exclude leguizamo
+Input: ['when', 'leguizamo', 'finally', 'plugged', 'an', 'irritating', 'character', 'late', 'in', 'the', 'movie']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.9985737800598145)
+Minimal Expl: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
+Exec Time: 36.50398826599121
+
+exclude leguizamo
+Input: ['when', 'leguizamo', 'finally', 'plugged', 'an', 'irritating', 'character', 'late', 'in', 'the', 'movie']
+KNN, Window Size: 25, 5
+Original output (confidence): 0 (0.9985737800598145)
+Minimal Expl: [0, 1, 2, 3, 4, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 235, 236, 237, 238, 239]
+Exec Time: 345.1659219264984
+
+exclude leguizamo
+Input: ['when', 'leguizamo', 'finally', 'plugged', 'an', 'irritating', 'character', 'late', 'in', 'the', 'movie']
+KNN, Window Size: 30, 5
+Original output (confidence): 0 (0.9985737800598145)
+Minimal Expl: [0, 1, 2, 3, 4, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 205, 206, 207, 208, 209]
+Exec Time: 3840.257565021515
+

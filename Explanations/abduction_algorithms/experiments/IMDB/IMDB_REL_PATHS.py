@@ -1,0 +1,8 @@
+MARABOUPY_REL_PATH = './../../../../Marabou/'
+ABDUCTION_REL_PATH = './../../'
+KERAS_REL_PATH = './../../../models/keras_models/'
+FROZEN_REL_PATH = './../../../models/frozen_graphs/'
+DATA_SAMPLES = './../../data_samples/'
+TRAIN_REL_PATH = './../../../train_models/'
+EMBEDDINGS_REL_PATH = './../../../data/embeddings/'
+RESULTS_PATH = './../../results/'

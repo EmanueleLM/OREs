@@ -1,0 +1,70 @@
+----------------------
+exclude {'#', 'a', 'stephen', 'nichols', 'mr', 'nichols'}
+
+
+Input: ['#', 'i', 'chose', 'to', 'watch', 'this', 'film', 'because', 'i', 'am', 'a', 'stephen', 'nichols', 'fan', 'unfortunately', 'i', 'am', 'unhappy', 'with', 'mr', 'nichols', 'choice', 'to', 'do', 'this', 'movie', 'the', 'film', 'was', 'slow', 'badly', 'acted', 'and', 'included', 'some', 'very', 'graphic', 'sex', 'scenes', 'of', 'mr', 'nichols', 'character', 'with', 'a', 'very', 'young', 'woman', 'watch', 'at', 'your', 'own', 'peril']
+KNN, Window Size: 30, 5
+Original output (confidence): 0 (0.7042929530143738)
+Minimal Expl: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 90, 91, 92, 93, 94, 120, 121, 122, 123, 124]
+Exec Time: 17373.64519095421
+
+Input: ['#', 'i', 'chose', 'to', 'watch', 'this', 'film', 'because', 'i', 'am', 'a', 'stephen', 'nichols', 'fan', 'unfortunately', 'i', 'am', 'unhappy', 'with', 'mr', 'nichols', 'choice', 'to', 'do', 'this', 'movie', 'the', 'film', 'was', 'slow', 'badly', 'acted', 'and', 'included', 'some', 'very', 'graphic', 'sex', 'scenes', 'of', 'mr', 'nichols', 'character', 'with', 'a', 'very', 'young', 'woman', 'watch', 'at', 'your', 'own', 'peril']
+KNN, Window Size: 25, 5
+Original output (confidence): 0 (0.7042929530143738)
+Minimal Expl: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 90, 91, 92, 93, 94, 110, 111, 112, 113, 114]
+Exec Time: 24643.85226726532
+
+Input: ['#', 'i', 'chose', 'to', 'watch', 'this', 'film', 'because', 'i', 'am', 'a', 'stephen', 'nichols', 'fan', 'unfortunately', 'i', 'am', 'unhappy', 'with', 'mr', 'nichols', 'choice', 'to', 'do', 'this', 'movie', 'the', 'film', 'was', 'slow', 'badly', 'acted', 'and', 'included', 'some', 'very', 'graphic', 'sex', 'scenes', 'of', 'mr', 'nichols', 'character', 'with', 'a', 'very', 'young', 'woman', 'watch', 'at', 'your', 'own', 'peril']
+KNN, Window Size: 8, 5
+Original output (confidence): 0 (0.7042929530143738)
+Minimal Expl: [5, 6, 7, 8, 9, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 70, 71, 72, 73, 74, 80, 81, 82, 83, 84, 90, 91, 92, 93, 94]
+Exec Time: 51639.05839943886
+
+Input: ['#', 'i', 'chose', 'to', 'watch', 'this', 'film', 'because', 'i', 'am', 'a', 'stephen', 'nichols', 'fan', 'unfortunately', 'i', 'am', 'unhappy', 'with', 'mr', 'nichols', 'choice', 'to', 'do', 'this', 'movie', 'the', 'film', 'was', 'slow', 'badly', 'acted', 'and', 'included', 'some', 'very', 'graphic', 'sex', 'scenes', 'of', 'mr', 'nichols', 'character', 'with', 'a', 'very', 'young', 'woman', 'watch', 'at', 'your', 'own', 'peril']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.7042929530143738)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 70, 71, 72, 73, 74, 80, 81, 82, 83, 84, 90, 91, 92, 93, 94, 110, 111, 112, 113, 114]
+Exec Time: 66868.2267472744
+
+
+---------------------------------
+eexclude {'stephen', 'nichols', 'nichols'}
+
+
+
+Input: ['#', 'i', 'first', 'saw', 'this', 'film', 'on', 'hbo', 'around', '1983', 'and', 'i', 'loved', 'it', 'i', 'scoured', 'all', 'of', 'the', 'auction', 'web', 'sites', 'to', 'buy', 'the', 'vhs', 'copy', 'this', 'is', 'a', 'very', 'good', 'suspense', 'movie', 'with', 'a', 'few', 'twists', 'that', 'make', 'it', 'more', 'interesting', 'i', 'dont', 'want', 'to', 'say', 'too', 'much', 'else', 'because', 'if', 'you', 'ever', 'get', 'a', 'chance', 'to', 'see', 'it', 'youll', 'be', 'glad', 'i', 'didnt', 'say', 'too', 'much']
+KNN, Window Size: 8, 5
+Original output (confidence): 1 (0.9318503141403198)
+Minimal Expl: []
+Exec Time: 94.79483771324158
+
+Input: ['#', 'i', 'chose', 'to', 'watch', 'this', 'film', 'because', 'i', 'am', 'a', 'stephen', 'nichols', 'fan', 'unfortunately', 'i', 'am', 'unhappy', 'with', 'mr', 'nichols', 'choice', 'to', 'do', 'this', 'movie', 'the', 'film', 'was', 'slow', 'badly', 'acted', 'and', 'included', 'some', 'very', 'graphic', 'sex', 'scenes', 'of', 'mr', 'nichols', 'character', 'with', 'a', 'very', 'young', 'woman', 'watch', 'at', 'your', 'own', 'peril']
+KNN, Window Size: 30, 5
+Original output (confidence): 0 (0.7042929530143738)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
+Exec Time: 44483.44791841507
+
+Input: ['#', 'i', 'chose', 'to', 'watch', 'this', 'film', 'because', 'i', 'am', 'a', 'stephen', 'nichols', 'fan', 'unfortunately', 'i', 'am', 'unhappy', 'with', 'mr', 'nichols', 'choice', 'to', 'do', 'this', 'movie', 'the', 'film', 'was', 'slow', 'badly', 'acted', 'and', 'included', 'some', 'very', 'graphic', 'sex', 'scenes', 'of', 'mr', 'nichols', 'character', 'with', 'a', 'very', 'young', 'woman', 'watch', 'at', 'your', 'own', 'peril']
+KNN, Window Size: 25, 5
+Original output (confidence): 0 (0.7042929530143738)
+Minimal Expl: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 90, 91, 92, 93, 94]
+Exec Time: 58116.88024020195
+
+Input: ['#', 'i', 'chose', 'to', 'watch', 'this', 'film', 'because', 'i', 'am', 'a', 'stephen', 'nichols', 'fan', 'unfortunately', 'i', 'am', 'unhappy', 'with', 'mr', 'nichols', 'choice', 'to', 'do', 'this', 'movie', 'the', 'film', 'was', 'slow', 'badly', 'acted', 'and', 'included', 'some', 'very', 'graphic', 'sex', 'scenes', 'of', 'mr', 'nichols', 'character', 'with', 'a', 'very', 'young', 'woman', 'watch', 'at', 'your', 'own', 'peril']
+KNN, Window Size: 8, 5
+Original output (confidence): 0 (0.7042929530143738)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 50, 51, 52, 53, 54, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 90, 91, 92, 93, 94]
+Exec Time: 68115.30997180939
+
+Input: ['#', 'i', 'first', 'saw', 'this', 'film', 'on', 'hbo', 'around', '1983', 'and', 'i', 'loved', 'it', 'i', 'scoured', 'all', 'of', 'the', 'auction', 'web', 'sites', 'to', 'buy', 'the', 'vhs', 'copy', 'this', 'is', 'a', 'very', 'good', 'suspense', 'movie', 'with', 'a', 'few', 'twists', 'that', 'make', 'it', 'more', 'interesting', 'i', 'dont', 'want', 'to', 'say', 'too', 'much', 'else', 'because', 'if', 'you', 'ever', 'get', 'a', 'chance', 'to', 'see', 'it', 'youll', 'be', 'glad', 'i', 'didnt', 'say', 'too', 'much']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9318503141403198)
+Minimal Expl: []
+Exec Time: 73594.60690116882
+
+Input: ['#', 'i', 'chose', 'to', 'watch', 'this', 'film', 'because', 'i', 'am', 'a', 'stephen', 'nichols', 'fan', 'unfortunately', 'i', 'am', 'unhappy', 'with', 'mr', 'nichols', 'choice', 'to', 'do', 'this', 'movie', 'the', 'film', 'was', 'slow', 'badly', 'acted', 'and', 'included', 'some', 'very', 'graphic', 'sex', 'scenes', 'of', 'mr', 'nichols', 'character', 'with', 'a', 'very', 'young', 'woman', 'watch', 'at', 'your', 'own', 'peril']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.7042929530143738)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 70, 71, 72, 73, 74, 80, 81, 82, 83, 84, 90, 91, 92, 93, 94]
+Exec Time: 95910.84190511703
+

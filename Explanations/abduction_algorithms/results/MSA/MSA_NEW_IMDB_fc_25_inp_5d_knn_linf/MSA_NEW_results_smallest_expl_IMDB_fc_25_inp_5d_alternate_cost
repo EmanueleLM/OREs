@@ -1,0 +1,18 @@
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 8, 5
+Original output (confidence): 0 (0.9503088593482971)
+Minimal Expl: []
+Exec Time: 103.16365909576416
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 8, 5
+Original output (confidence): 0 (0.9503088593482971)
+Minimal Expl: []
+Exec Time: 10.64021348953247
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.9503088593482971)
+Minimal Expl: []
+Exec Time: 8133.59219288826
+

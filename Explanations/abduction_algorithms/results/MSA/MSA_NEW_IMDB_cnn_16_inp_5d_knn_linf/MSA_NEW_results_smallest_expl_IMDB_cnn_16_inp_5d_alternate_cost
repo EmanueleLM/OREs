@@ -1,0 +1,91 @@
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 8, 5
+Original output (confidence): 0 (0.961862325668335)
+Minimal Expl: [55, 56, 57, 58, 59]
+Exec Time: 53.382362365722656
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.961862325668335)
+Minimal Expl: [15, 16, 17, 18, 19, 35, 36, 37, 38, 39]
+Exec Time: 205.0604681968689
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 25, 5
+Original output (confidence): 0 (0.961862325668335)
+Minimal Expl: [15, 16, 17, 18, 19, 55, 56, 57, 58, 59]
+Exec Time: 255.4523105621338
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 8, 5
+Original output (confidence): 0 (0.961862325668335)
+Minimal Expl: [55, 56, 57, 58, 59]
+Exec Time: 55.240548849105835
+
+Input: ['#', 'well', 'i', 'am', 'the', 'target', 'market', 'i', 'loved', 'it', 'furthermore', 'my', 'husband', 'also', 'a', 'boomer', 'with', 'strong', 'memories', 'of', 'the', '60s', 'liked', 'it', 'a', 'lot', 'too', 'i', 'havent', 'read', 'the', 'book', 'so', 'i', 'went', 'into', 'it', 'neutral', 'i', 'was', 'very', 'pleasantly', 'surprised', 'its', 'now', 'on', 'our', 'highly', 'recommended', 'video', 'list', 'br', 'br']
+KNN, Window Size: 25, 5
+Original output (confidence): 1 (0.7490713596343994)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+Exec Time: 1997.5110447406769
+
+Input: ['#', 'well', 'i', 'am', 'the', 'target', 'market', 'i', 'loved', 'it', 'furthermore', 'my', 'husband', 'also', 'a', 'boomer', 'with', 'strong', 'memories', 'of', 'the', '60s', 'liked', 'it', 'a', 'lot', 'too', 'i', 'havent', 'read', 'the', 'book', 'so', 'i', 'went', 'into', 'it', 'neutral', 'i', 'was', 'very', 'pleasantly', 'surprised', 'its', 'now', 'on', 'our', 'highly', 'recommended', 'video', 'list', 'br', 'br']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.7490713596343994)
+Minimal Expl: [5, 6, 7, 8, 9, 20, 21, 22, 23, 24, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+Exec Time: 2495.595726251602
+
+Input: ['#', 'well', 'i', 'am', 'the', 'target', 'market', 'i', 'loved', 'it', 'furthermore', 'my', 'husband', 'also', 'a', 'boomer', 'with', 'strong', 'memories', 'of', 'the', '60s', 'liked', 'it', 'a', 'lot', 'too', 'i', 'havent', 'read', 'the', 'book', 'so', 'i', 'went', 'into', 'it', 'neutral', 'i', 'was', 'very', 'pleasantly', 'surprised', 'its', 'now', 'on', 'our', 'highly', 'recommended', 'video', 'list', 'br', 'br']
+KNN, Window Size: 8, 5
+Original output (confidence): 1 (0.7490713596343994)
+Minimal Expl: [5, 6, 7, 8, 9, 20, 21, 22, 23, 24, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 65, 66, 67, 68, 69]
+Exec Time: 2778.5346641540527
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 8, 5
+Original output (confidence): 0 (0.961862325668335)
+Minimal Expl: [55, 56, 57, 58, 59]
+Exec Time: 65.71494174003601
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.961862325668335)
+Minimal Expl: [15, 16, 17, 18, 19, 35, 36, 37, 38, 39]
+Exec Time: 221.60383319854736
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 25, 5
+Original output (confidence): 0 (0.961862325668335)
+Minimal Expl: [15, 16, 17, 18, 19, 55, 56, 57, 58, 59]
+Exec Time: 287.1063914299011
+
+Input: ['#', 'what', 'a', 'waste', 'of', 'talent', 'a', 'very', 'poor', 'semi', 'coherent', 'script', 'cripples', 'this', 'film', 'rather', 'unimaginative', 'direction', 'too', 'some', 'very', 'faint', 'echoes', 'of', 'fargo', 'here', 'but', 'it', 'just', 'doesnt', 'come', 'off']
+KNN, Window Size: 30, 5
+Original output (confidence): 0 (0.961862325668335)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 55, 56, 57, 58, 59]
+Exec Time: 281.2735631465912
+
+________________________________________exclude
+Input: ['#', 'well', 'i', 'am', 'the', 'target', 'market', 'i', 'loved', 'it', 'furthermore', 'my', 'husband', 'also', 'a', 'boomer', 'with', 'strong', 'memories', 'of', 'the', '60s', 'liked', 'it', 'a', 'lot', 'too', 'i', 'havent', 'read', 'the', 'book', 'so', 'i', 'went', 'into', 'it', 'neutral', 'i', 'was', 'very', 'pleasantly', 'surprised', 'its', 'now', 'on', 'our', 'highly', 'recommended', 'video', 'list', 'br', 'br']
+KNN, Window Size: 8, 5
+Original output (confidence): 1 (0.7490713596343994)
+Minimal Expl: [5, 6, 7, 8, 9, 20, 21, 22, 23, 24, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 65, 66, 67, 68, 69]
+Exec Time: 346.4652898311615
+
+Input: ['#', 'well', 'i', 'am', 'the', 'target', 'market', 'i', 'loved', 'it', 'furthermore', 'my', 'husband', 'also', 'a', 'boomer', 'with', 'strong', 'memories', 'of', 'the', '60s', 'liked', 'it', 'a', 'lot', 'too', 'i', 'havent', 'read', 'the', 'book', 'so', 'i', 'went', 'into', 'it', 'neutral', 'i', 'was', 'very', 'pleasantly', 'surprised', 'its', 'now', 'on', 'our', 'highly', 'recommended', 'video', 'list', 'br', 'br']
+KNN, Window Size: 30, 5
+Original output (confidence): 1 (0.7490713596343994)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69]
+Exec Time: 353.1188268661499
+
+Input: ['#', 'well', 'i', 'am', 'the', 'target', 'market', 'i', 'loved', 'it', 'furthermore', 'my', 'husband', 'also', 'a', 'boomer', 'with', 'strong', 'memories', 'of', 'the', '60s', 'liked', 'it', 'a', 'lot', 'too', 'i', 'havent', 'read', 'the', 'book', 'so', 'i', 'went', 'into', 'it', 'neutral', 'i', 'was', 'very', 'pleasantly', 'surprised', 'its', 'now', 'on', 'our', 'highly', 'recommended', 'video', 'list', 'br', 'br']
+KNN, Window Size: 25, 5
+Original output (confidence): 1 (0.7490713596343994)
+Minimal Expl: [5, 6, 7, 8, 9, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 65, 66, 67, 68, 69]
+Exec Time: 373.62840843200684
+
+Input: ['#', 'well', 'i', 'am', 'the', 'target', 'market', 'i', 'loved', 'it', 'furthermore', 'my', 'husband', 'also', 'a', 'boomer', 'with', 'strong', 'memories', 'of', 'the', '60s', 'liked', 'it', 'a', 'lot', 'too', 'i', 'havent', 'read', 'the', 'book', 'so', 'i', 'went', 'into', 'it', 'neutral', 'i', 'was', 'very', 'pleasantly', 'surprised', 'its', 'now', 'on', 'our', 'highly', 'recommended', 'video', 'list', 'br', 'br']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.7490713596343994)
+Minimal Expl: [5, 6, 7, 8, 9, 20, 21, 22, 23, 24, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 65, 66, 67, 68, 69]
+Exec Time: 402.9771385192871
+

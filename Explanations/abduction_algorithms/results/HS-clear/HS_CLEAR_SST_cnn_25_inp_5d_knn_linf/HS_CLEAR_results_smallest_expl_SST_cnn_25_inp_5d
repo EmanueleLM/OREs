@@ -1,0 +1,6 @@
+Input: ['spencer', 'is', 'not', 'a', 'good', 'guy']
+KNN, Window Size, Adv_attacks: 8, 5, True
+Original output (confidence): 0 (0.7796858549118042)
+Minimal Expl: [0, 1, 2, 3, 4, 10, 11, 12, 13, 14, 115, 116, 117, 118, 119] (3 words)
+Exec Time: 2958.6784965991974
+

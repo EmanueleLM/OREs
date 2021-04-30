@@ -1,0 +1,300 @@
+Input: ['it', 'is', 'amusing', 'and', 'that', 'is', 'all', 'it', 'needs', 'to', 'be']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.5210326910018921)
+Minimal Expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Exec Time: 4.053506374359131
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9959408044815063)
+Minimal Expl: []
+Exec Time: 14.394730806350708
+
+Input: ['an', 'operatic', 'sprawling', 'picture', 'that', 'is', 'entertainingly', 'acted', 'magnificently', 'shot', 'and', 'gripping', 'enough', 'to', 'sustain', 'most', 'of', 'its', '170-minute', 'length']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9320861101150513)
+Minimal Expl: [20, 21, 22, 23, 24]
+Exec Time: 38.979228258132935
+
+Input: ['a', 'rigorously', 'structured', 'and', 'exquisitely', 'filmed', 'drama', 'about', 'a', 'father', 'and', 'son', 'connection', 'that', 'is', 'a', 'brief', 'shooting', 'star', 'of', 'love']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9955533146858215)
+Minimal Expl: [20, 21, 22, 23, 24]
+Exec Time: 48.73804187774658
+
+Input: ['it', 'is', 'a', 'satisfying', 'summer', 'blockbuster', 'and', 'worth', 'a', 'look']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9991908669471741)
+Minimal Expl: []
+Exec Time: 15.162869215011597
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9959408044815063)
+Minimal Expl: []
+Exec Time: 15.196457624435425
+
+Input: ['whether', 'or', 'not', 'you', 'are', 'enlightened', 'by', 'any', 'of', 'derrida', 'is', 'lectures', 'on', 'the', 'other', 'and', 'the', 'self', 'derrida', 'is', 'an', 'undeniably', 'fascinating', 'and', 'playful', 'fellow']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.7099153399467468)
+Minimal Expl: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+Exec Time: 24.045340538024902
+
+Input: ['it', 'is', 'a', 'much', 'more', 'emotional', 'journey', 'than', 'what', 'shyamalan', 'has', 'given', 'us', 'in', 'his', 'past', 'two', 'movies', 'and', 'gibson', 'stepping', 'in', 'for', 'bruce', 'willis', 'is', 'the', 'perfect', 'actor', 'to', 'take', 'us', 'on', 'the', 'trip']
+KNN, Window Size: 7, 5
+Original output (confidence): 0 (0.6547961831092834)
+Minimal Expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+Exec Time: 28.712722539901733
+
+Input: ['this', 'odd', 'poetic', 'road', 'movie', 'spiked', 'by', 'jolts', 'of', 'pop', 'music', 'pretty', 'much', 'takes', 'place', 'in', 'morton', 'ever-watchful', 'gaze', '--', 'and', 'it', 'as', 'a', 'tribute', 'to', 'the', 'actress', 'and', 'to', 'her', 'inventive', 'director', 'that', 'the', 'journey', 'is', 'such', 'a', 'mesmerizing', 'one']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9108083844184875)
+Minimal Expl: [20, 21, 22, 23, 24, 35, 36, 37, 38, 39]
+Exec Time: 42.29989266395569
+
+Input: ['more', 'romantic', 'more', 'emotional', 'and', 'ultimately', 'more', 'satisfying', 'than', 'the', 'teary-eyed', 'original']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9051705002784729)
+Minimal Expl: [20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+Exec Time: 106.72892308235168
+
+Input: ['exquisitely', 'nuanced', 'in', 'mood', 'tics', 'and', 'dialogue', 'this', 'chamber', 'drama', 'is', 'superbly', 'acted', 'by', 'the', 'deeply', 'appealing', 'veteran', 'bouquet', 'and', 'the', 'chilling', 'but', 'quite', 'human', 'berling']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9676984548568726)
+Minimal Expl: [20, 21, 22, 23, 24, 35, 36, 37, 38, 39]
+Exec Time: 135.02938795089722
+
+Input: ['when', 'leguizamo', 'finally', 'plugged', 'an', 'irritating', 'character', 'late', 'in', 'the', 'movie']
+KNN, Window Size: 7, 5
+Original output (confidence): 0 (0.9990098476409912)
+Minimal Expl: []
+Exec Time: 14.73388385772705
+
+Input: ['the', 'gorgeously', 'elaborate', 'continuation', 'of', 'the', 'lord', 'of', 'the', 'rings', 'trilogy', 'is', 'so', 'huge', 'that', 'a', 'column', 'of', 'words', 'can', 'not', 'adequately', 'describe', 'co-writer/director', 'peter', 'jackson', 'expanded', 'vision', 'of', 'j.r.r.', 'tolkien', 'middle-earth']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.9998387098312378)
+Minimal Expl: []
+Exec Time: 15.385314464569092
+
+Input: ['at', 'least', 'one', 'scene', 'is', 'so', 'disgusting', 'that', 'viewers', 'may', 'be', 'hard', 'pressed', 'to', 'retain', 'their', 'lunch']
+KNN, Window Size: 7, 5
+Original output (confidence): 0 (0.901336669921875)
+Minimal Expl: [20, 21, 22, 23, 24, 35, 36, 37, 38, 39]
+Exec Time: 23.51852583885193
+
+Input: ['the', 'film', 'just', 'might', 'turn', 'on', 'many', 'people', 'to', 'opera', 'in', 'general', 'an', 'art', 'form', 'at', 'once', 'visceral', 'and', 'spiritual', 'wonderfully', 'vulgar', 'and', 'sublimely', 'lofty', 'and', 'as', 'emotionally', 'grand', 'as', 'life']
+KNN, Window Size: 7, 5
+Original output (confidence): 1 (0.680777907371521)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 35, 36, 37, 38, 39]
+Exec Time: 28.450173377990723
+
+Input: ['it', 'is', 'probably', 'not', 'easy', 'to', 'make', 'such', 'a', 'worthless', 'film']
+KNN, Window Size: 7, 5
+Original output (confidence): 0 (0.8930615186691284)
+Minimal Expl: [5, 6, 7, 8, 9, 15, 16, 17, 18, 19]
+Exec Time: 50.080342054367065
+
+Input: ['like', 'its', 'title', 'character', 'esther', 'kahn', 'is', 'unusual', 'but', 'unfortunately', 'also', 'irritating']
+KNN, Window Size: 7, 5
+Original output (confidence): 0 (0.8007029294967651)
+Minimal Expl: [10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 40, 41, 42, 43, 44]
+Exec Time: 51.696253299713135
+
+Input: ['there', 'are', 'far', 'worse', 'messages', 'to', 'teach', 'a', 'young', 'audience', 'which', 'will', 'probably', 'be', 'perfectly', 'happy', 'with', 'the', 'sloppy', 'slapstick', 'comedy']
+KNN, Window Size: 7, 5
+Original output (confidence): 0 (0.9998008608818054)
+Minimal Expl: []
+Exec Time: 14.288663864135742
+
+Input: ['this', 'one', 'is', 'not', 'nearly', 'as', 'dreadful', 'as', 'expected']
+KNN, Window Size: 7, 5
+Original output (confidence): 0 (0.8653123378753662)
+Minimal Expl: [15, 16, 17, 18, 19]
+Exec Time: 30.90447449684143
+
+Input: ['the', 'draw', 'for', 'big', 'bad', 'love', 'is', 'a', 'solid', 'performance', 'by', 'arliss', 'howard']
+KNN, Window Size: 7, 5
+Original output (confidence): 0 (0.8805660009384155)
+Minimal Expl: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 40, 41, 42, 43, 44]
+Exec Time: 68.51407790184021
+
+Input: ['it', 'is', 'amusing', 'and', 'that', 'is', 'all', 'it', 'needs', 'to', 'be']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.5210326910018921)
+Minimal Expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Exec Time: 4.352920770645142
+
+Input: ['insanely', 'hilarious', '!']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9994663596153259)
+Minimal Expl: []
+Exec Time: 15.412336349487305
+
+Input: ['a', 'delightful', 'coming-of-age', 'story']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9974825978279114)
+Minimal Expl: []
+Exec Time: 15.522285461425781
+
+Input: ['the', 'extent', 'to', 'which', 'it', 'succeeds', 'is', 'impressive']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9977974891662598)
+Minimal Expl: []
+Exec Time: 17.61720299720764
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9959408044815063)
+Minimal Expl: [15, 16, 17, 18, 19]
+Exec Time: 26.47123885154724
+
+Input: ['a', 'rigorously', 'structured', 'and', 'exquisitely', 'filmed', 'drama', 'about', 'a', 'father', 'and', 'son', 'connection', 'that', 'is', 'a', 'brief', 'shooting', 'star', 'of', 'love']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9955533146858215)
+Minimal Expl: [20, 21, 22, 23, 24]
+Exec Time: 34.318087577819824
+
+Input: ['yet', 'the', 'act', 'is', 'still', 'charming', 'here']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9960816502571106)
+Minimal Expl: [15, 16, 17, 18, 19]
+Exec Time: 49.13230299949646
+
+Input: ['strange', 'funny', 'twisted', 'brilliant', 'and', 'macabre']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9938445091247559)
+Minimal Expl: [5, 6, 7, 8, 9]
+Exec Time: 51.611305475234985
+
+Input: ['you', 'will', 'probably', 'love', 'it']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9611305594444275)
+Minimal Expl: [10, 11, 12, 13, 14, 20, 21, 22, 23, 24]
+Exec Time: 60.58530640602112
+
+Input: ['an', 'operatic', 'sprawling', 'picture', 'that', 'is', 'entertainingly', 'acted', 'magnificently', 'shot', 'and', 'gripping', 'enough', 'to', 'sustain', 'most', 'of', 'its', '170-minute', 'length']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9320861101150513)
+Minimal Expl: [20, 21, 22, 23, 24, 35, 36, 37, 38, 39]
+Exec Time: 111.66562747955322
+
+Input: ['it', 'is', 'a', 'much', 'more', 'emotional', 'journey', 'than', 'what', 'shyamalan', 'has', 'given', 'us', 'in', 'his', 'past', 'two', 'movies', 'and', 'gibson', 'stepping', 'in', 'for', 'bruce', 'willis', 'is', 'the', 'perfect', 'actor', 'to', 'take', 'us', 'on', 'the', 'trip']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.6547961831092834)
+Minimal Expl: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+Exec Time: 7.659299373626709
+
+Input: ['whether', 'or', 'not', 'you', 'are', 'enlightened', 'by', 'any', 'of', 'derrida', 'is', 'lectures', 'on', 'the', 'other', 'and', 'the', 'self', 'derrida', 'is', 'an', 'undeniably', 'fascinating', 'and', 'playful', 'fellow']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.7099153399467468)
+Minimal Expl: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+Exec Time: 14.227903127670288
+
+Input: ['it', 'is', 'a', 'satisfying', 'summer', 'blockbuster', 'and', 'worth', 'a', 'look']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9991908669471741)
+Minimal Expl: []
+Exec Time: 15.825506448745728
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9959408044815063)
+Minimal Expl: [15, 16, 17, 18, 19]
+Exec Time: 26.209844827651978
+
+Input: ['you', 'really', 'have', 'to', 'salute', 'writer-director', 'haneke', '(', 'he', 'adapted', 'elfriede', 'jelinek', 'novel', ')', 'for', 'making', 'a', 'film', 'that', 'is', 'not', 'nearly', 'as', 'graphic', 'but', 'much', 'more', 'powerful', 'brutally', 'shocking', 'and', 'difficult', 'to', 'watch']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9838917851448059)
+Minimal Expl: [15, 16, 17, 18, 19]
+Exec Time: 27.26305890083313
+
+Input: ['star/producer', 'salma', 'hayek', 'and', 'director', 'julie', 'taymor', 'have', 'infused', 'frida', 'with', 'a', 'visual', 'style', 'unique', 'and', 'inherent', 'to', 'the', 'titular', 'character', 'paintings', 'and', 'in', 'the', 'process', 'created', 'a', 'masterful', 'work', 'of', 'art', 'of', 'their', 'own']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.8808820247650146)
+Minimal Expl: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 40, 41, 42, 43, 44]
+Exec Time: 50.818488121032715
+
+Input: ['this', 'is', 'wild', 'surreal', 'stuff', ',', 'but', 'brilliant', 'and', 'the', 'camera', 'just', 'kind', 'of', 'sits', 'there', 'and', 'lets', 'you', 'look', 'at', 'this', 'and', 'its', 'like', 'you', 'are', 'going', 'from', 'one', 'room', 'to', 'the', 'next', 'and', 'none', 'of', 'them', 'have', 'any', 'relation', 'to', 'the', 'other']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9931600093841553)
+Minimal Expl: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+Exec Time: 55.24456167221069
+
+Input: ['this', 'odd', 'poetic', 'road', 'movie', 'spiked', 'by', 'jolts', 'of', 'pop', 'music', 'pretty', 'much', 'takes', 'place', 'in', 'morton', 'ever-watchful', 'gaze', '--', 'and', 'it', 'as', 'a', 'tribute', 'to', 'the', 'actress', 'and', 'to', 'her', 'inventive', 'director', 'that', 'the', 'journey', 'is', 'such', 'a', 'mesmerizing', 'one']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9108083844184875)
+Minimal Expl: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 35, 36, 37, 38, 39]
+Exec Time: 62.25384593009949
+
+Input: ['more', 'romantic', 'more', 'emotional', 'and', 'ultimately', 'more', 'satisfying', 'than', 'the', 'teary-eyed', 'original']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9051705002784729)
+Minimal Expl: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+Exec Time: 93.20159482955933
+
+Input: ['exquisitely', 'nuanced', 'in', 'mood', 'tics', 'and', 'dialogue', 'this', 'chamber', 'drama', 'is', 'superbly', 'acted', 'by', 'the', 'deeply', 'appealing', 'veteran', 'bouquet', 'and', 'the', 'chilling', 'but', 'quite', 'human', 'berling']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9676984548568726)
+Minimal Expl: [20, 21, 22, 23, 24, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Exec Time: 187.73106980323792
+
+Input: ['as', 'vulgar', 'as', 'it', 'is', 'banal']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.9994981288909912)
+Minimal Expl: []
+Exec Time: 15.513989210128784
+
+Input: ['when', 'leguizamo', 'finally', 'plugged', 'an', 'irritating', 'character', 'late', 'in', 'the', 'movie']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.9990098476409912)
+Minimal Expl: []
+Exec Time: 15.523019313812256
+
+Input: ['the', 'gorgeously', 'elaborate', 'continuation', 'of', 'the', 'lord', 'of', 'the', 'rings', 'trilogy', 'is', 'so', 'huge', 'that', 'a', 'column', 'of', 'words', 'can', 'not', 'adequately', 'describe', 'co-writer/director', 'peter', 'jackson', 'expanded', 'vision', 'of', 'j.r.r.', 'tolkien', 'middle-earth']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9998387098312378)
+Minimal Expl: []
+Exec Time: 15.476552248001099
+
+Input: ['the', 'film', 'just', 'might', 'turn', 'on', 'many', 'people', 'to', 'opera', 'in', 'general', 'an', 'art', 'form', 'at', 'once', 'visceral', 'and', 'spiritual', 'wonderfully', 'vulgar', 'and', 'sublimely', 'lofty', 'and', 'as', 'emotionally', 'grand', 'as', 'life']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.680777907371521)
+Minimal Expl: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 35, 36, 37, 38, 39]
+Exec Time: 21.356207132339478
+
+Input: ['staggeringly', 'dreadful', 'romance']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.9843618869781494)
+Minimal Expl: [5, 6, 7, 8, 9]
+Exec Time: 31.056575536727905
+
+Input: ['this', 'is', 'one', 'baaaaaaaaad', 'movie']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.6289656162261963)
+Minimal Expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 35, 36, 37, 38, 39]
+Exec Time: 51.282159090042114
+
+Input: ['like', 'its', 'title', 'character', 'esther', 'kahn', 'is', 'unusual', 'but', 'unfortunately', 'also', 'irritating']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.8007029294967651)
+Minimal Expl: [10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Exec Time: 58.21930646896362
+
+Input: ['at', 'least', 'one', 'scene', 'is', 'so', 'disgusting', 'that', 'viewers', 'may', 'be', 'hard', 'pressed', 'to', 'retain', 'their', 'lunch']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.901336669921875)
+Minimal Expl: [20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+Exec Time: 66.9848415851593
+
+Input: ['it', 'is', 'probably', 'not', 'easy', 'to', 'make', 'such', 'a', 'worthless', 'film']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.8930615186691284)
+Minimal Expl: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 40, 41, 42, 43, 44]
+Exec Time: 73.2034432888031
+
+Input: ['an', 'incredibly', 'irritating', 'comedy', 'about', 'thoroughly', 'vacuous', 'people', '...', 'manages', 'to', 'embody', 'the', 'worst', 'excesses', 'of', 'nouvelle', 'vague', 'without', 'any', 'of', 'its', 'sense', 'of', 'fun', 'or', 'energy']
+KNN, Window Size: 15, 5
+Original output (confidence): 0 (0.8825796246528625)
+Minimal Expl: [10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+Exec Time: 116.202219247818
+

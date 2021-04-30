@@ -1,0 +1,36 @@
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 8, 5
+Original output (confidence): 1 (0.9989954829216003)
+Minimal Expl: []
+Exec Time: 3.182234287261963
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 15, 5
+Original output (confidence): 1 (0.9989954829216003)
+Minimal Expl: []
+Exec Time: 3.8887271881103516
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 25, 5
+Original output (confidence): 1 (0.9989954829216003)
+Minimal Expl: []
+Exec Time: 6.041292667388916
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 30, 5
+Original output (confidence): 1 (0.9989954829216003)
+Minimal Expl: []
+Exec Time: 7.234344720840454
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 35, 5
+Original output (confidence): 1 (0.9989954829216003)
+Minimal Expl: []
+Exec Time: 9.56006383895874
+
+Input: ['still', 'this', 'flick', 'is', 'fun', 'and', 'host', 'to', 'some', 'truly', 'excellent', 'sequences']
+KNN, Window Size: 30, 5
+Original output (confidence): 1 (0.9989954829216003)
+Minimal Expl: []
+Exec Time: 7.224728107452393
+
