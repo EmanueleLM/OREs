@@ -43,7 +43,7 @@ The algorithm identifies the words `Spencer` and `not` as an ORE (alongside a `P
 Let's suppose you want to check whether an explanation will always contain the name of a character, actor or director: something which ideally should not be used for classifying whether a review is positive or negative. To do this, you can run the following command:
 
 ```
-python3 smallest_HScost_explanation_SST_fc_knn_linf.py -k 27 -w 5 -a 0 -i '"Austin Powers in Goldmember has the right stuff for summer entertainment and has enough laughs to sustain interest to' the end" -u False -x 'austin,powers,goldmember'
+python3 smallest_HScost_explanation_SST_fc_knn_linf.py -k 27 -w 5 -a 0 -i '"Austin Powers in Goldmember has the right stuff for summer entertainment and has enough laughs to sustain interest to the end" -u False -x 'austin,powers,goldmember'
 ```
 
 Please note that the `-x` command excludes specific words from the computation of the ORE (if possible). If the excluded word still appears in the ORE (which it does in this example, ``powers'' is present), you know that no explanation exists without it and therefore that there is a decision bias here.
