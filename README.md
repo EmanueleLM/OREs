@@ -1,13 +1,7 @@
 # Optimal Robust Explantions
 This repository constains the code to run the experiments of the paper "On Guaranteed Optimal Robust Explanations for NLP Models", which will appear on the proceeding of the 30th International Joint Conference on Artificial Intelligence. If you need to cite the paper, please use the following format:
 ```
-IJCAI2021.
-@inproceedings{LaMalfa2021,
-Author = {Emanuele La Malfa et al.},
-Title = {On Guaranteed Optimal Robust Explanations for NLP Models},
-Booktitle  = {International Joint Conference on Artificial Intelligence (IJCAI) - to appear},
-Year = {2021}
-}
+tbd
 ```
 
 ## Install Python Dependencies
